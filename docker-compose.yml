@@ -3,7 +3,7 @@ version: "3.1"
 services:
   galeria:
     container_name: galeria
-    image: yammy08/galeria2:latest
+    image: yammy08/my_galeria:latest
     ports:
       - 80:5000
     restart: always
